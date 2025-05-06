@@ -5,26 +5,18 @@ linear_validation.py: Executes the linear VAR (Vector Autoregression) model usin
 
 nonlinear_validation.py: Runs the nonlinear VAR (NLVAR) model with the desired configuration.
 
-Navigate to the FormulationA/ folder and run:
 
-bash
-Copy
-Edit
 python linearvalidation.py
 or
 
-bash
-Copy
-Edit
+
 python nonlinearvalidation.py
 depending on the model you wish to evaluate.
 
 Formulation B
-computer_Gradebts.py: Implements the VAR model under Formulation B.
+ Implements the VAR model under Formulation B.
 
 Navigate to the FormulationB/ folder and run:
 
-bash
-Copy
-Edit
-python computer_Gradebts.py
+
+python var_lip.py
